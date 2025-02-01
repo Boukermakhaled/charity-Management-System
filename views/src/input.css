@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root{
+    --active-bgc:#AD9EFD;
+    --noActive-color:#7C7A8C;
+    --BORDER-color:#262630;
+    --text-color:#EEEEEE;
+    --icon--color:#94FDB6;
+    --icon--colorI:#EEB71A;
+    --icon--colorII:#813FE2;
+    --font:"Noto Sans";
+
+}
+
+*{
+    font-family: var(--font);
+}
+.Noact{
+    color: var(--noActive-color);
+}
+.Act{
+    background-color: var(--active-bgc);
+    color: var(--BORDER-color);
+}
+li{
+    margin-top:15px ;
+    padding: 10px  ;
+    width: 90%;
+    cursor: pointer;
+}
