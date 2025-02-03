@@ -18,13 +18,14 @@
 .Noact{
     color: var(--noActive-color);
 }
-.Act{
-    background-color: var(--active-bgc);
-    color: var(--BORDER-color);
-}
-li{
-    margin-top:15px ;
-    padding: 10px  ;
-    width: 90%;
-    cursor: pointer;
-}
+.Act {
+    @apply bg-[color:var(--icon--colorII)] text-[color:var(--text-color)] rounded-[8px];
+  }
+  
+.leftSide li {
+    @apply w-[90%] cursor-pointer p-1.5 gap-1.5 mt-3 text-xs lg:p-2.5 lg:gap-2.5 lg:text-[14px];
+  }
+  .menuIcon{
+    @apply hidden max-md:flex max-md:p-5 max-md:text-2xl;
+  }
+  

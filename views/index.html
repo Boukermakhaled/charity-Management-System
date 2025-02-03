@@ -13,22 +13,27 @@
 </head>
 <body class="flex justify-center font-[Noto Sans] dark:bg-black">
     <div class="container  dark:bg-[#0E1924] text-[var(--text-color)]">
-    <div class="leftSide w-[20%] border-r-[0.2px] border-[var(--noActive-color)]">
-        <div class="logo border-b border-[var(--noActive-color)] mb-0.5"><h1 class="uppercase text-2xl py-2.5 px-4">Charity</h1></div>
+        <!-- <i class="menuIcon fa-solid fa-bars "></i> -->
+    <div class="leftSide w-[20%] border-r-[0.2px] border-[var(--noActive-color)] hidden md:flex flex-col">
+        <div class="logo border-b border-[var(--noActive-color)] mb-0.5"><h1 class="uppercase max-lg:text-xl lg:text-2xl py-4.5 px-4.5">Charity</h1></div>
         <div class="mainMenu py-3.5 px-3">
-            <span class="Noact uppercase text-xs">Main Menu</span>
+            <span class="Noact uppercase max-lg:text-[10px] lg:text-xs">Main Menu</span>
             <div class="menuList flex items-center justify-center">
-            <ul class="ml-4 w-full text-[14px]">
-                <li class="Act rounded-[8px] flex gap-2.5 items-center"><i class="fa-solid fa-gauge-high ml-2"></i> Dashboard</li>
-                <li class="flex gap-2.5 items-center Noact"><i class="fa-solid fa-hands-holding-child ml-2 "></i>Beneficiaries</li>
-                <li class="flex gap-2.5 items-center Noact"><i class="fa-solid fa-user ml-2"></i></i>Members</li>
-                <li class="flex gap-2.5 items-center Noact"><i class="fa-solid fa-calendar-check ml-2"></i></i>Events</li>
+            <ul class="lg:ml-4 w-full text-[14px]">
+                <li class="Act flex  items-center"><i class="fa-solid fa-gauge-high ml-2"></i> Dashboard</li>
+                <li class="Act flex  items-center Noact"><i class="fa-solid fa-hands-holding-child ml-2 "></i>Beneficiaries</li>
+                <li class="Act flex  items-center Noact"><i class="fa-solid fa-user ml-2"></i></i>Members</li>
+                <li class="Act flex  items-center Noact"><i class="fa-solid fa-calendar-check ml-2"></i></i>Events</li>
                 
-            </ul>
+            </ul>        
         </div>
         </div>
-
+</div>
+<div class="rightSide w-[80%]">
+    <div class="header">
+        
     </div>
+</div>
 </div>
 <script src="toggele.js"></script>
 
